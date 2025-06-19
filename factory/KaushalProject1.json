@@ -1,0 +1,9 @@
+{
+	"name": "KaushalProject1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3d1c8b68-6550-45e2-9533-d8192dd53602",
+		"tenantId": "458bb176-3690-4fc9-91d2-82b643867483"
+	}
+}
