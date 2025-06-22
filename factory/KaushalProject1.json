@@ -2,8 +2,14 @@
 	"name": "KaushalProject1",
 	"location": "eastus",
 	"identity": {
-		"type": "SystemAssigned",
+		"type": "SystemAssigned,UserAssigned",
 		"principalId": "3d1c8b68-6550-45e2-9533-d8192dd53602",
-		"tenantId": "458bb176-3690-4fc9-91d2-82b643867483"
+		"tenantId": "458bb176-3690-4fc9-91d2-82b643867483",
+		"userAssignedIdentities": {
+			"/subscriptions/23cdc59e-d950-4e76-b069-2cdd84cd9e39/resourcegroups/Project1/providers/Microsoft.ManagedIdentity/userAssignedIdentities/managed-identity1": {
+				"clientId": "09a17ff0-2e06-411d-86d6-13de7d4ea82e",
+				"principalId": "361c82b6-424e-444d-8ec9-550334d13dbe"
+			}
+		}
 	}
 }
